@@ -4,7 +4,7 @@ piMotoDriver
 ## Resumen
 Este es un sencillo driver que expone una api amigable para ser consumida desde cualquier tipo de aplicación.
 
-Está construida sobre la plataforma de RaspberryPi usando la librería RPi.GPIO y una placa controladora que diseñamos especialmente para aprovechar al máximo la capacidad de movimiento sin afectar el rendimiento de la Raspi.
+Está construida sobre la plataforma de RaspberryPi usando la librería RPi.GPIO y una placa controladora que diseñamos especialmente para aprovechar al máximo la capacidad de movimiento sin afectar el rendimiento de la Raspi. El esquemático de la misma lo pueden encontrar [aquí](https://github.com/educabot/piMotoDriver/blob/master/doc/esquematico.png).
 
 Maneja dos motores de continua en ambos sentidos y dos servomotores.
 
