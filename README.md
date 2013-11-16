@@ -3,7 +3,9 @@ piMotoDriver
 
 ## Resumen
 Este es un sencillo driver que expone una api amigable para ser consumida desde cualquier tipo de aplicación.
-Esta construida sobre la plataforma de RaspberryPi usando la librería RPi.GPIO y un placa controlador que diseñamos especialmente para aprovechar al máximo la capacidad de movimiento sin afectar el rendimiento de la Raspi.
+
+Está construida sobre la plataforma de RaspberryPi usando la librería RPi.GPIO y una placa controladora que diseñamos especialmente para aprovechar al máximo la capacidad de movimiento sin afectar el rendimiento de la Raspi.
+
 Maneja dos motores de continua en ambos sentidos y dos servomotores.
 
 ## Ejemplo de uso
@@ -43,6 +45,8 @@ Los servos son usados para mover los ejes de, por ejemplo, una cabeza.
 * Ampliar la documentación
 * Agregar tests para ampliar los ejemplos de uso
 * Agregar parametros de configuracion para limites en el rango de movimiento de los servos.
+* Agregar un patron de arranque gradual para evitar que resvalen las ruedas.
+
 
 
 
