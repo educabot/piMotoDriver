@@ -48,5 +48,8 @@ Los servos son usados para mover los ejes de, por ejemplo, una cabeza.
 * Agregar un patron de arranque gradual para evitar que resvalen las ruedas.
 
 
+## License
+
+[GPL.v3](LICENSE.txt)
 
 
